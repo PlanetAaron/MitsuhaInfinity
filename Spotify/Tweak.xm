@@ -120,7 +120,7 @@ MSHConfig *mshConfig = NULL;
     CGFloat height = CGRectGetHeight(self.view.bounds) - mshConfig.waveOffset;
     [mshConfig initializeViewWithFrame:CGRectMake(0, mshConfig.waveOffset, self.view.bounds.size.width, height)];
     self.mshView = [mshConfig view];
-    [self.view insertSubview:self.mshView atIndex:2];
+    [self.view insertSubview:self.mshView atIndex:3];
 }
 
 -(void)viewWillAppear:(BOOL)animated{
